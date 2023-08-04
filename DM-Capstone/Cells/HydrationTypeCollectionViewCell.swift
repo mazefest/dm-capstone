@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol HydrationTypeCollectionViewCellDelegate {
-    func hydrationTypeCollectionViewCell(didSelect cell: HydrationTypeCollectionViewCell)
-}
-
 class HydrationTypeCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var hydrationTypeImage: UIImageView!
     @IBOutlet weak var button: UIButton!

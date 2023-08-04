@@ -18,6 +18,7 @@ extension String {
         for character in self {
             if character.isUppercase { // pop current word and continue
                 words.append(currentWord)
+                currentWord = ""
             } else {
                 currentWord.append(character)
             }
