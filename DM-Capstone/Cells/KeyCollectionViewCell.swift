@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol KeyCollectionViewCellDelegate {
-    func keyCollectionViewCell(_ cell: KeyCollectionViewCell, withType: KeyType)
-}
-
 class KeyCollectionViewCell: UICollectionViewCell {
     
     var delegate: KeyCollectionViewCellDelegate?

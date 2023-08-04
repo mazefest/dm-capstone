@@ -15,7 +15,6 @@ extension Array<HydrationLog> {
     }
 }
 
-
 // Converts an array of strings to a sentence
 // [hey, hi, hello] -> `hey hi hello`
 extension Array<String> {

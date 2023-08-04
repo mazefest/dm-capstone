@@ -20,6 +20,8 @@
 		775E2D782A7847CA005987C3 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E2D772A7847CA005987C3 /* String+Ext.swift */; };
 		775E2D7B2A7856B7005987C3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E2D7A2A7856B7005987C3 /* CoreDataManager.swift */; };
 		777008462A7D9E80001B9404 /* HydrationTypeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777008452A7D9E80001B9404 /* HydrationTypeCollectionViewCellDelegate.swift */; };
+		777008482A7D9F9F001B9404 /* HydrationLogDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777008472A7D9F9F001B9404 /* HydrationLogDelegate.swift */; };
+		7770084A2A7D9FBB001B9404 /* KeyCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777008492A7D9FBB001B9404 /* KeyCollectionViewCellDelegate.swift */; };
 		77DDB2A82A79703400DA162F /* HydrationProgressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2A72A79703400DA162F /* HydrationProgressTableViewController.swift */; };
 		77DDB2AA2A79706600DA162F /* HydrationLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2A92A79706600DA162F /* HydrationLogViewController.swift */; };
 		77DDB2AD2A797C3900DA162F /* HydrationTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2AB2A797C3900DA162F /* HydrationTracker.xcdatamodeld */; };
@@ -49,6 +51,8 @@
 		775E2D772A7847CA005987C3 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		775E2D7A2A7856B7005987C3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		777008452A7D9E80001B9404 /* HydrationTypeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationTypeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		777008472A7D9F9F001B9404 /* HydrationLogDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationLogDelegate.swift; sourceTree = "<group>"; };
+		777008492A7D9FBB001B9404 /* KeyCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
 		77DDB2A72A79703400DA162F /* HydrationProgressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationProgressTableViewController.swift; sourceTree = "<group>"; };
 		77DDB2A92A79706600DA162F /* HydrationLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationLogViewController.swift; sourceTree = "<group>"; };
 		77DDB2AC2A797C3900DA162F /* HydrationTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HydrationTracker.xcdatamodel; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				777008452A7D9E80001B9404 /* HydrationTypeCollectionViewCellDelegate.swift */,
+				777008472A7D9F9F001B9404 /* HydrationLogDelegate.swift */,
+				777008492A7D9FBB001B9404 /* KeyCollectionViewCellDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			files = (
 				77DDB2AA2A79706600DA162F /* HydrationLogViewController.swift in Sources */,
 				773CAAE52A70BC93000AC867 /* Date+Ext.swift in Sources */,
+				777008482A7D9F9F001B9404 /* HydrationLogDelegate.swift in Sources */,
 				773CAADD2A70BAD7000AC867 /* HydrationType.swift in Sources */,
 				77DDB2BA2A79A91C00DA162F /* KeyType.swift in Sources */,
 				77DDB2AD2A797C3900DA162F /* HydrationTracker.xcdatamodeld in Sources */,
@@ -274,6 +281,7 @@
 				77DDB2C22A79D9BC00DA162F /* DayIntakeCardCollectionViewCell.swift in Sources */,
 				77DDB2B22A798B2900DA162F /* HydrationTypeCollectionViewCell.swift in Sources */,
 				773CAAE02A70BB6F000AC867 /* HydrationLogController.swift in Sources */,
+				7770084A2A7D9FBB001B9404 /* KeyCollectionViewCellDelegate.swift in Sources */,
 				777008462A7D9E80001B9404 /* HydrationTypeCollectionViewCellDelegate.swift in Sources */,
 				773CAAE32A70BC5A000AC867 /* Array+Ext.swift in Sources */,
 				77DDB2B72A79A76D00DA162F /* KeyCollectionViewCell.swift in Sources */,

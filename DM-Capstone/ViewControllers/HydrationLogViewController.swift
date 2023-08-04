@@ -6,9 +6,6 @@
 //
 
 import UIKit
-protocol HydrationLogDelegate {
-    func hydrationLogViewController(didFinishWith hydrationLog: HydrationLog)
-}
 
 class HydrationLogViewController: UIViewController {
     @IBOutlet weak var hydrationTypeCollectionView: UICollectionView!
@@ -110,11 +107,7 @@ extension HydrationLogViewController: UICollectionViewDelegate, UICollectionView
         }
         
         return UICollectionViewCell()
-        
-        
     }
-    
-    
 }
 
 extension HydrationLogViewController: HydrationTypeCollectionViewCellDelegate {
@@ -136,20 +129,6 @@ extension HydrationLogViewController: KeyCollectionViewCellDelegate {
                 measurementString = "\(measurementString)\(withType.representation)"
             }
         }
-
         updateViews()
-    }
-    
-    
-}
-
-
-extension String {
-    func removingLastCharacter() -> String {
-        if count > 1 {
-            return String(prefix(count - 1))
-        } else {
-            return self
-        }
     }
 }

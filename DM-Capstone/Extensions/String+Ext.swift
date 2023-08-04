@@ -28,4 +28,12 @@ extension String {
         
         return words.stringArrayToSentence()
     }
+
+    func removingLastCharacter() -> String {
+        if count > 1 {
+            return String(prefix(count - 1))
+        } else {
+            return self
+        }
+    }
 }
