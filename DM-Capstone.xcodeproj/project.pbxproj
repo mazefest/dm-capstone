@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7721504F2A7360A0008799B9 /* HydrationLog+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721504E2A7360A0008799B9 /* HydrationLog+Ext.swift */; };
 		773CAAC32A70B92A000AC867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAAC22A70B92A000AC867 /* AppDelegate.swift */; };
 		773CAAC52A70B92A000AC867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAAC42A70B92A000AC867 /* SceneDelegate.swift */; };
-		773CAAC72A70B92A000AC867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAAC62A70B92A000AC867 /* ViewController.swift */; };
 		773CAACA2A70B92A000AC867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773CAAC82A70B92A000AC867 /* Main.storyboard */; };
-		773CAACD2A70B92A000AC867 /* DM_Capstone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 773CAACB2A70B92A000AC867 /* DM_Capstone.xcdatamodeld */; };
 		773CAACF2A70B92D000AC867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773CAACE2A70B92D000AC867 /* Assets.xcassets */; };
 		773CAAD22A70B92D000AC867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773CAAD02A70B92D000AC867 /* LaunchScreen.storyboard */; };
 		773CAADD2A70BAD7000AC867 /* HydrationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAADC2A70BAD7000AC867 /* HydrationType.swift */; };
 		773CAAE02A70BB6F000AC867 /* HydrationLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAADF2A70BB6F000AC867 /* HydrationLogController.swift */; };
 		773CAAE32A70BC5A000AC867 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAAE22A70BC5A000AC867 /* Array+Ext.swift */; };
 		773CAAE52A70BC93000AC867 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAAE42A70BC93000AC867 /* Date+Ext.swift */; };
-		773CAAE72A70BCFB000AC867 /* HydrationTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773CAAE62A70BCFB000AC867 /* HydrationTypeController.swift */; };
+		775E2D782A7847CA005987C3 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E2D772A7847CA005987C3 /* String+Ext.swift */; };
+		775E2D7B2A7856B7005987C3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E2D7A2A7856B7005987C3 /* CoreDataManager.swift */; };
+		77DDB2A82A79703400DA162F /* HydrationProgressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2A72A79703400DA162F /* HydrationProgressTableViewController.swift */; };
+		77DDB2AA2A79706600DA162F /* HydrationLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2A92A79706600DA162F /* HydrationLogViewController.swift */; };
+		77DDB2AD2A797C3900DA162F /* HydrationTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2AB2A797C3900DA162F /* HydrationTracker.xcdatamodeld */; };
+		77DDB2B22A798B2900DA162F /* HydrationTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2B12A798B2900DA162F /* HydrationTypeCollectionViewCell.swift */; };
+		77DDB2B52A79949900DA162F /* ConstantsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2B42A79949900DA162F /* ConstantsUtil.swift */; };
+		77DDB2B72A79A76D00DA162F /* KeyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2B62A79A76D00DA162F /* KeyCollectionViewCell.swift */; };
+		77DDB2BA2A79A91C00DA162F /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2B92A79A91C00DA162F /* KeyType.swift */; };
+		77DDB2BC2A79C0E000DA162F /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2BB2A79C0E000DA162F /* Double+Ext.swift */; };
+		77DDB2BE2A79C2DE00DA162F /* HydrationLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2BD2A79C2DE00DA162F /* HydrationLogTableViewCell.swift */; };
+		77DDB2C02A79CC1B00DA162F /* HydrationProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2BF2A79CC1B00DA162F /* HydrationProgressViewController.swift */; };
+		77DDB2C22A79D9BC00DA162F /* DayIntakeCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB2C12A79D9BC00DA162F /* DayIntakeCardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7721504E2A7360A0008799B9 /* HydrationLog+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HydrationLog+Ext.swift"; sourceTree = "<group>"; };
 		773CAABF2A70B92A000AC867 /* DM-Capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DM-Capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		773CAAC22A70B92A000AC867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		773CAAC42A70B92A000AC867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		773CAAC62A70B92A000AC867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		773CAAC92A70B92A000AC867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		773CAACC2A70B92A000AC867 /* DM_Capstone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DM_Capstone.xcdatamodel; sourceTree = "<group>"; };
 		773CAACE2A70B92D000AC867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		773CAAD12A70B92D000AC867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		773CAAD32A70B92D000AC867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,7 +45,19 @@
 		773CAADF2A70BB6F000AC867 /* HydrationLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationLogController.swift; sourceTree = "<group>"; };
 		773CAAE22A70BC5A000AC867 /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
 		773CAAE42A70BC93000AC867 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		773CAAE62A70BCFB000AC867 /* HydrationTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationTypeController.swift; sourceTree = "<group>"; };
+		775E2D772A7847CA005987C3 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		775E2D7A2A7856B7005987C3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		77DDB2A72A79703400DA162F /* HydrationProgressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationProgressTableViewController.swift; sourceTree = "<group>"; };
+		77DDB2A92A79706600DA162F /* HydrationLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationLogViewController.swift; sourceTree = "<group>"; };
+		77DDB2AC2A797C3900DA162F /* HydrationTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HydrationTracker.xcdatamodel; sourceTree = "<group>"; };
+		77DDB2B12A798B2900DA162F /* HydrationTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		77DDB2B42A79949900DA162F /* ConstantsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsUtil.swift; sourceTree = "<group>"; };
+		77DDB2B62A79A76D00DA162F /* KeyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCollectionViewCell.swift; sourceTree = "<group>"; };
+		77DDB2B92A79A91C00DA162F /* KeyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyType.swift; sourceTree = "<group>"; };
+		77DDB2BB2A79C0E000DA162F /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+		77DDB2BD2A79C2DE00DA162F /* HydrationLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationLogTableViewCell.swift; sourceTree = "<group>"; };
+		77DDB2BF2A79CC1B00DA162F /* HydrationProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationProgressViewController.swift; sourceTree = "<group>"; };
+		77DDB2C12A79D9BC00DA162F /* DayIntakeCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayIntakeCardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +90,16 @@
 		773CAAC12A70B92A000AC867 /* DM-Capstone */ = {
 			isa = PBXGroup;
 			children = (
+				77DDB2B82A79A91000DA162F /* Enums */,
+				77DDB2B32A79948E00DA162F /* Utils */,
+				77DDB2AE2A798A1800DA162F /* Cells */,
+				77DDB2A42A796F0900DA162F /* ViewControllers */,
+				775E2D792A7856AC005987C3 /* CoreData */,
 				773CAAE12A70BC4A000AC867 /* Extensions */,
 				773CAADE2A70BB4C000AC867 /* Controllers */,
 				773CAAD92A70B935000AC867 /* DataModels */,
 				773CAAC22A70B92A000AC867 /* AppDelegate.swift */,
 				773CAAC42A70B92A000AC867 /* SceneDelegate.swift */,
-				773CAAC62A70B92A000AC867 /* ViewController.swift */,
 				773CAAC82A70B92A000AC867 /* Main.storyboard */,
 				773CAACE2A70B92D000AC867 /* Assets.xcassets */,
 				773CAAD02A70B92D000AC867 /* LaunchScreen.storyboard */,
@@ -85,7 +111,7 @@
 		773CAAD92A70B935000AC867 /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
-				773CAACB2A70B92A000AC867 /* DM_Capstone.xcdatamodeld */,
+				77DDB2AB2A797C3900DA162F /* HydrationTracker.xcdatamodeld */,
 				773CAADC2A70BAD7000AC867 /* HydrationType.swift */,
 			);
 			path = DataModels;
@@ -95,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				773CAADF2A70BB6F000AC867 /* HydrationLogController.swift */,
-				773CAAE62A70BCFB000AC867 /* HydrationTypeController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,8 +130,56 @@
 			children = (
 				773CAAE22A70BC5A000AC867 /* Array+Ext.swift */,
 				773CAAE42A70BC93000AC867 /* Date+Ext.swift */,
+				7721504E2A7360A0008799B9 /* HydrationLog+Ext.swift */,
+				775E2D772A7847CA005987C3 /* String+Ext.swift */,
+				77DDB2BB2A79C0E000DA162F /* Double+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		775E2D792A7856AC005987C3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				775E2D7A2A7856B7005987C3 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		77DDB2A42A796F0900DA162F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				77DDB2A72A79703400DA162F /* HydrationProgressTableViewController.swift */,
+				77DDB2A92A79706600DA162F /* HydrationLogViewController.swift */,
+				77DDB2BF2A79CC1B00DA162F /* HydrationProgressViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		77DDB2AE2A798A1800DA162F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				77DDB2B12A798B2900DA162F /* HydrationTypeCollectionViewCell.swift */,
+				77DDB2B62A79A76D00DA162F /* KeyCollectionViewCell.swift */,
+				77DDB2BD2A79C2DE00DA162F /* HydrationLogTableViewCell.swift */,
+				77DDB2C12A79D9BC00DA162F /* DayIntakeCardCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		77DDB2B32A79948E00DA162F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				77DDB2B42A79949900DA162F /* ConstantsUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		77DDB2B82A79A91000DA162F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				77DDB2B92A79A91C00DA162F /* KeyType.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,15 +253,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DDB2AA2A79706600DA162F /* HydrationLogViewController.swift in Sources */,
 				773CAAE52A70BC93000AC867 /* Date+Ext.swift in Sources */,
-				773CAAC72A70B92A000AC867 /* ViewController.swift in Sources */,
 				773CAADD2A70BAD7000AC867 /* HydrationType.swift in Sources */,
+				77DDB2BA2A79A91C00DA162F /* KeyType.swift in Sources */,
+				77DDB2AD2A797C3900DA162F /* HydrationTracker.xcdatamodeld in Sources */,
+				775E2D7B2A7856B7005987C3 /* CoreDataManager.swift in Sources */,
+				77DDB2BC2A79C0E000DA162F /* Double+Ext.swift in Sources */,
+				77DDB2C22A79D9BC00DA162F /* DayIntakeCardCollectionViewCell.swift in Sources */,
+				77DDB2B22A798B2900DA162F /* HydrationTypeCollectionViewCell.swift in Sources */,
 				773CAAE02A70BB6F000AC867 /* HydrationLogController.swift in Sources */,
-				773CAACD2A70B92A000AC867 /* DM_Capstone.xcdatamodeld in Sources */,
 				773CAAE32A70BC5A000AC867 /* Array+Ext.swift in Sources */,
+				77DDB2B72A79A76D00DA162F /* KeyCollectionViewCell.swift in Sources */,
+				77DDB2BE2A79C2DE00DA162F /* HydrationLogTableViewCell.swift in Sources */,
+				77DDB2A82A79703400DA162F /* HydrationProgressTableViewController.swift in Sources */,
+				77DDB2B52A79949900DA162F /* ConstantsUtil.swift in Sources */,
+				7721504F2A7360A0008799B9 /* HydrationLog+Ext.swift in Sources */,
+				77DDB2C02A79CC1B00DA162F /* HydrationProgressViewController.swift in Sources */,
 				773CAAC32A70B92A000AC867 /* AppDelegate.swift in Sources */,
-				773CAAE72A70BCFB000AC867 /* HydrationTypeController.swift in Sources */,
 				773CAAC52A70B92A000AC867 /* SceneDelegate.swift in Sources */,
+				775E2D782A7847CA005987C3 /* String+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,13 +492,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		773CAACB2A70B92A000AC867 /* DM_Capstone.xcdatamodeld */ = {
+		77DDB2AB2A797C3900DA162F /* HydrationTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				773CAACC2A70B92A000AC867 /* DM_Capstone.xcdatamodel */,
+				77DDB2AC2A797C3900DA162F /* HydrationTracker.xcdatamodel */,
 			);
-			currentVersion = 773CAACC2A70B92A000AC867 /* DM_Capstone.xcdatamodel */;
-			path = DM_Capstone.xcdatamodeld;
+			currentVersion = 77DDB2AC2A797C3900DA162F /* HydrationTracker.xcdatamodel */;
+			name = HydrationTracker.xcdatamodeld;
+			path = ../../HydrationTracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

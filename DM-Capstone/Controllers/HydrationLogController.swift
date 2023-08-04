@@ -6,11 +6,18 @@
 //
 
 import Foundation
+import CoreData
 
 class HydrationLogcontroller {
     static var shared = HydrationLogcontroller()
     
     var logs: [HydrationLog] = []
+    
+    private lazy var fetchRequest: NSFetchRequest<HydrationLog> = {
+        let request = NSFetchRequest<HydrationLog>(entityName: "HydrationLog")
+        request.predicate = NSPredicate(value: true)
+        return request
+    }()
     
     init() {
         load()
@@ -34,10 +41,18 @@ class HydrationLogcontroller {
     }
     
     func cache() {
-        //
+        CoreDataManager.saveContext()
     }
     
     func load() {
-        //
+        let request = NSFetchRequest<HydrationLog>(entityName: "HydrationLog")
+        request.predicate = NSPredicate(value: true)
+        self.logs = (try? CoreDataManager.managedObjectContext.fetch(request)) ?? []
+    }
+}
+
+extension HydrationLogcontroller {
+    func logsInRange(start: Date, end: Date) -> [HydrationLog] {
+        return logs.filter({$0.date!.isInRange(start: start, end: end)})
     }
 }
